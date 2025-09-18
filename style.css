@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -28,6 +29,23 @@ header p {
     margin-bottom: 0.3rem;
 }
 
+header .social-links a {
+    display: inline-block;
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    color: #4b79a1;
+    background-color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+header .social-links a:hover {
+    background-color: #f4f4f9;
+    color: #333;
+}
+
 main {
     max-width: 900px;
     margin: 2rem auto;
@@ -47,10 +65,52 @@ section h2 {
     margin-bottom: 1rem;
 }
 
+section ul {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+}
+
+section ul li {
+    margin-bottom: 0.8rem;
+    
+}
+
+section a {
+    color: #4b79a1;
+    text-decoration: none;
+}
+
+section a:hover {
+    text-decoration: underline;
+}
+
 footer {
     text-align: center;
     padding: 1.5rem;
     background-color: #333;
     color: #fff;
     margin-top: 2rem;
+}
+header .social-links a {
+    display: inline-flex;
+    align-items: center;
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    color: #4b79a1;
+    background-color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+header .social-links a:hover {
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+.social-logo {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
 }
